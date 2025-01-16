@@ -21,16 +21,16 @@ export default function Home() {
           <span className="text-xl font-bold text-white">GatorTech</span>
         </Link>
         <div className="hidden md:flex items-center space-x-8">
-          <Link href="#about" className="text-sm text-gray-300 hover:text-white">
+          <Link href="/about" className="text-sm text-gray-300 hover:text-white">
             About
           </Link>
-          <Link href="#events" className="text-sm text-gray-300 hover:text-white">
+          <Link href="/events" className="text-sm text-gray-300 hover:text-white">
             Events
           </Link>
-          <Link href="#projects" className="text-sm text-gray-300 hover:text-white">
+          <Link href="/projects" className="text-sm text-gray-300 hover:text-white">
             Projects
           </Link>
-          <Link href="#team" className="text-sm text-gray-300 hover:text-white">
+          <Link href="/team" className="text-sm text-gray-300 hover:text-white">
             Team
           </Link>
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
               Get Started
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button size="lg" variant="outline" className="hover:bg-gray-300">
+            <Button size="lg" variant="outline" className="hover:bg-gray-300 text-black">
               Learn More
             </Button>
           </div>
